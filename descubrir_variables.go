@@ -25,7 +25,7 @@ func main() {
 	// Ahora intentaré meter variables con Scan
 	var name string
 	var age int
-	fmt.Print("Por favor dime tu nombre: y edad: ")
+	fmt.Print("Por favor dime tu nombre:")
 	fmt.Scan(&name) // lee los datos introducidos separados por un espacio
 	fmt.Print("Y ahora, por favor, ¿podrías decirme tu edad?: ")
 	fmt.Scan(&age)
