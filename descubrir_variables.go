@@ -22,10 +22,13 @@ func main() {
 	myflotante := 3.5
 	fmt.Println(myflotante)
 
+	// Ahora intentaré meter variables con Scan
 	var name string
 	var age int
-	fmt.Print("Enter your name and age: ")
-	fmt.Scan(&name, &age) // Reading input separated by space
-	fmt.Printf("Hello %s, you are %d years old.\n", name, age)
+	fmt.Print("Por favor dime tu nombre: y edad: ")
+	fmt.Scan(&name) // lee los datos introducidos separados por un espacio
+	fmt.Print("Y ahora, por favor, ¿podrías decirme tu edad?: ")
+	fmt.Scan(&age)
+	fmt.Printf("Hola %s, tienes  %d años.\n", name, age)
 
 }
